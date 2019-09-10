@@ -3,14 +3,16 @@ img {
 }
 
 img.image1 {
-	width: 20%;	
-	left: 800px;
-	top: 100px;
-}
-img.image2 {
-	width: 20%;	
+	width: 30%;	
 	left: 600px;
 	top: 200px;
+	opacity: 50%
+}
+
+img.image2 {
+	width: 35%;	
+	left: 700px;
+	top: 400px;
 	opacity: 50%
 }
 
@@ -19,7 +21,7 @@ header {
 	font-size: 45pt; 
 	color: white; 
 	text-align: center;
-	left: 50px;
+	left: 70px;
 
 	
 }
@@ -40,8 +42,20 @@ h1 {
 	font-family: 'Homemade Apple', cursive;
 }
 
+h2 {
+	font-family: 'Inconsolata', monospace;
+	font-size: 20pt
+	left: 20%;
+}
+
+
 p {
 	font-size: x-large; 
 	padding-left: 100px; 
 	padding-right: 40px;
+}
+
+footer {
+	color: white;
+	text-align: center;
 }
