@@ -1,0 +1,47 @@
+img {
+	position: absolute;
+}
+
+img.image1 {
+	width: 20%;	
+	left: 800px;
+	top: 100px;
+}
+img.image2 {
+	width: 20%;	
+	left: 600px;
+	top: 200px;
+	opacity: 50%
+}
+
+header {
+	position: relative;
+	font-size: 45pt; 
+	color: white; 
+	text-align: center;
+	left: 50px;
+
+	
+}
+
+body {
+	font-family: sans-serif; 
+	background-color: pink;
+}
+
+section {	
+	margin-left: 150px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+}
+
+h1 {
+	text-align: left;
+	font-family: 'Homemade Apple', cursive;
+}
+
+p {
+	font-size: x-large; 
+	padding-left: 100px; 
+	padding-right: 40px;
+}
