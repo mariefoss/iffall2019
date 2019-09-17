@@ -1,0 +1,73 @@
+img {
+	position: absolute;
+}
+
+img.image1 {
+	width: 30%;	
+	left: 600px;
+	top: 200px;
+	opacity: 50%
+}
+
+img.image2 {
+	width: 35%;	
+	left: 700px;
+	top: 400px;
+	opacity: 50%
+}
+
+header {
+	position: relative;
+	font-size: 45pt; 
+	color: white; 
+	text-align: center;
+	left: 70px;
+
+	
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: pink;
+}
+
+section {	
+	margin-left: 150px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+}
+
+h1 {
+	text-align: left;
+	font-family: 'Homemade Apple', cursive;
+}
+
+h2 {
+	font-family: 'Inconsolata', monospace;
+	font-size: 20pt
+	left: 20%;
+}
+
+
+p {
+	font-size: x-large; 
+	padding-left: 100px; 
+	padding-right: 40px;
+}
+
+.verse {
+	font-weight: 100;
+	text-transform: lowercase
+}
+
+section.chorus {
+	font-weight: 400;
+	letter-spacing: 4pt;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	font-weight: 100;
+}
+
