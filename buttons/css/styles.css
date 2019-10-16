@@ -1,0 +1,392 @@
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#main_content {
+	margin: 40px;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+a#btn_apple {
+	z-index: 10;
+	position: relative;
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 17px;
+	padding: 10px 40px 0 40px;
+	color: white;
+	font-size: 20px;
+	font-family: myriad-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+}
+
+img#apple-logo {
+z-index: 2;
+	/*position: absolute;*/
+	width: 150px;
+	height: auto;
+	top: -50px;
+	right: -6px;	
+}
+
+a#btn_apple:hover {
+	color: #000;
+	text-shadow: 1px 1px 4px rgba(0,0,0,.2);
+}
+
+
+
+a#btn_coke {
+	z-index: 10;
+	/*position: relative;*/
+	display: block;
+	width: 120px;
+	height: 120px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 65px;
+	padding-top: 47px;
+	background-color: white;
+	color: red;
+	border: 2px solid;
+	border-color: red;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.1em;
+	border-radius: 100px;
+}
+
+img#coke-logo {
+	position: absolute;
+	z-index: 5;
+	left: 4px;
+	bottom: 44px;
+	/*padding-bottom: 200px;*/
+	/*padding-right: 200px;*/
+	width: 105px;
+	height: auto;
+}
+
+a#btn_coke:hover {
+	transform: scale(1.25);
+	transition: transform 0.3s;
+	background-color: red;
+}
+
+a#btn_color {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 105px;
+	padding: 7px 30px 0 30px;
+	background-color: rgb(243, 75, 127);
+	color: #fff;
+	font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+    font-size: 21px;
+	text-decoration: none;
+}
+
+a#btn_color:hover {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f8b500+3,f8b500+3,fbdf93+81 */
+	background: #f8b500; /* Old browsers */
+	background: -moz-linear-gradient(left,  #f8b500 3%, #f8b500 3%, #fbdf93 81%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #f8b500 3%,#f8b500 3%,#fbdf93 81%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #f8b500 3%,#f8b500 3%,#fbdf93 81%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b500', endColorstr='#fbdf93',GradientType=1 ); /* IE6-9 */
+	color: rgb(243,75,127);
+	box-shadow: 0px 0px 18px rgb(0,186,179,.3);
+	font-weight: 500;
+}
+
+a#btn_newyorker {
+	position: relative;
+	display: inline-block;
+	margin:auto;
+	margin-top:75px;
+	width: 160px;
+	height: 60px;
+	border: 2px solid;
+	border-color: black;
+	background-color: white;
+	padding-top: 46px;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	color: white;
+}
+
+img#ny-logo {
+	position: absolute;
+	top: 28px;
+	left: 11px;
+	width: 140px;
+	height: auto;
+
+}
+
+a#btn_newyorker:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+a#btn_npr {
+	display: inline-block;
+	margin:auto;
+	margin-top:100px;
+	width: 100px;
+	height: 40px;
+	background-color: rgb(109, 138, 196);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 1.8em;
+	color: white;
+	text-decoration: none;
+	font-family: myriad-pro, sans-serif;
+	font-weight: 600;
+}
+
+a#btn_npr:hover {
+	background-color: #D0021B;
+}
+
+a#btn_npr:visited {
+	text-decoration: none;
+}
+
+a#btn_kittens {
+	display: inline-block;
+	margin:auto;
+	margin-top:75px;
+	width: 200px;
+	height: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 3em;
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	font-family: bebas-neue, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1;
+}
+
+a#btn_kittens:hover {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f7b83b+0,ff5c05+82,fc4705+100 */
+background: #f7b83b; /* Old browsers */
+background: -moz-linear-gradient(top,  #f7b83b 0%, #ff5c05 82%, #fc4705 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f7b83b 0%,#ff5c05 82%,#fc4705 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f7b83b 0%,#ff5c05 82%,#fc4705 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7b83b', endColorstr='#fc4705',GradientType=0 ); /* IE6-9 */
+	transition: all .3s;
+}
+
+strong {
+	color: white;
+	font-weight: 400;
+	font-style: normal;
+}
+
+a#btn_stjude {
+	display: inline-block;
+	margin:auto;
+	margin-top:80px;
+	width: 260px;
+	height: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: rgba(0,0,0,.6);
+	background-color: white;
+	text-decoration: none;
+	font-family: minion-pro, serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 2em;
+	line-height: 1;
+}
+ em {
+ 	font-size: 25pt;
+ 	font-style: normal;
+ }
+
+ a#btn_stjude:hover {
+ 	color: rgba(0,0,0,.4);
+ 	transition: all .5s;
+ 	border-top: 2px solid rgb(237, 22, 74);
+ }
+
+a#btn_fb {
+	display: inline-block;
+	margin:auto;
+	margin-top:80px;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	border-radius: 10px;
+	color: white;
+	background-color: #4267b2;
+	text-decoration: none;
+	font-family: roboto, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 9em;
+}
+
+ a#btn_fb:hover {
+ 	border-radius: 100px;
+ 	transition: all .7s;
+ }
+
+a#btn_tucker {
+	position: relative;
+	display: inline-block;
+	margin:auto;
+	margin-top:80px;
+	width: 280px;
+	height: 100px;
+	/*border: 2px solid rgb(0,0,50);*/
+	box-sizing: border-box;
+	padding-top: 35px;
+	padding-left: 40px;
+	border-radius: 10px;
+	color: white;
+	font-family: Minion, serif;
+	text-decoration: none;
+	/*text-transform: uppercase;*/
+	font-size: 1.5em;
+	font-weight: 400;
+	line-height: .8
+}
+
+img#tucker {
+	position: absolute;
+	width: 200px;
+	height: auto;
+	left:20px;
+	top: -45px;
+}
+
+strong.at {
+	text-transform: uppercase;
+	font-family: Railway, sans-serif;
+	font-size: .4em;
+	color: white;
+}
+
+ a#btn_tucker:hover {
+ 	color: black;
+ }
+
+ a img#tucker:hover {
+ 	transform: translateX(-70px);
+ 	transition: all .3s;
+ }
+
+ a#btn_sam {
+	display: inline-block;
+	margin:auto;
+	margin-top:100px;
+	width: 170px;
+	height: 40px;
+	padding-top: 5px;
+	padding-right: 20px
+	padding-bottom: 5px;
+	color: rgb(20, 40, 160);
+	background-color: white;
+	text-decoration: none;
+	font-family: railway, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-style: normal;
+	font-size: 2em;
+	line-height: 1;
+}
+
+ a#btn_sam:hover {
+ 	color: rgba(0,0,0,.7);
+ 	transition: all .5s;
+ 	border-bottom: 2px solid rgb(20, 40, 160);
+ }
+
+  a#btn_mk {
+	display: inline-block;
+	margin:auto;
+	margin-top:70px;
+	width: 170px;
+	height: 80px;
+	padding-top: 8px;
+	padding-right: 15px
+	padding-bottom: 5px;
+	color: white;
+	background-color: black;
+	text-decoration: none;
+	font-family: railway, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-style: normal;
+	font-size: 6em;
+}
+
+ a#btn_mk:hover {
+ 	color: black;
+ 	transition: all .5s;
+ 	border: 9px solid black;
+ 	background-color: white
+ }
+
+ a#btn_mbg {
+  	position: relative;
+	display: inline-block;
+	margin:auto;
+	margin-top:30px;
+	width: 150px;
+	height: 200px;
+
+	background-color: #295307;
+
+}
+
+img#mis {
+	position: absolute;
+	width: 100px;
+	height: auto;
+	right: 25px;
+	top: 25px;
+}
+
+ a#btn_mbg:hover {
+ 	border-radius: 20px;
+ 	transition: all .5s;
+ 	background-color: #006a51;
+ }
