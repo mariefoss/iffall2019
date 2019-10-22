@@ -1,0 +1,143 @@
+body{
+	margin: 3rem auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	/*padding-left: 15px;
+	padding-right: 15px;*/
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.25;
+	font-weight: 500;
+	font-size: 17pt;
+
+}
+
+div {
+	background-color: #F4E69F;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	width: 100%;
+}
+header {
+	margin-top: 0px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+h1 {
+	margin: 0px;
+	padding-top: 50px;
+	font-size: 80px;
+	font-family: 'Great Vibes', cursive;
+	color: white;
+	padding-right: 10px
+}
+
+p {
+	line-height: 1.25;
+	font-weight: 500;
+	font-size: 17pt
+}
+
+img#logo {
+	padding-top: 20px;
+	width: 50%;
+	height: auto;
+}
+img.first-image {
+	padding-top: 20px;
+	width: 100%;
+	height: auto;
+
+	
+}
+img.vert {
+	width: 100%;
+	height: auto;
+	
+}
+
+div#ingredients {
+	background-color: #F4E69F;
+	margin-top: 0px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-bottom: 40px;
+	}
+div#directions {
+	background-color: #F4E69F;
+	margin-top: 0px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-bottom: 40px;
+	}
+div#notes {
+
+	margin-top: 0px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-bottom: 40px;
+
+}
+
+h2 {
+	height: 110px;
+	width: auto;
+	margin: 0px auto;
+	padding-top: 35px;
+	padding-bottom: 10px;
+	font-size: 70px;
+	font-family: 'Great Vibes', cursive;
+	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: pink;
+	letter-spacing: 1pt;
+	text-align: center
+}
+
+ ul {
+ 		padding-left: 15px;
+	padding-right: 15px;
+	list-style: none;
+
+ }
+h3 {
+	padding-left: 15px;
+	color: pink;
+	font-size: 2rem;
+}
+
+section {
+	margin: 0px;
+	padding: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom:20px;
+}
+
+.odd {
+	border: 3pt solid white;
+	font-weight: 600;
+	color: black;
+}
+
+.even {
+	border: 3pt solid pink;
+	font-weight: 500;
+	color: black;
+}
+
+div#notes {
+	font-size: 10pt
+}
+
+footer {
+	text-align: center;
+	font-size: 15px;
+	padding-bottom: 20px;
+	color: white;
+	font-weight: 600;
+}
