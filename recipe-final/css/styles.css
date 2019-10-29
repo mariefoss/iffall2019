@@ -1,0 +1,163 @@
+body{
+	margin: 3rem auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	/*padding-left: 15px;
+	padding-right: 15px;*/
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.25;
+	font-weight: 500;
+	font-size: 15pt;
+
+}
+
+div {
+	background-color: #F4E69F;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	width: 100%;
+}
+header {
+	margin-top: 0px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+img#logo {
+	padding-top: 20px;
+	padding-left: 25%;
+	width: 50%;
+	height: auto;
+}
+
+h1 {
+	margin: 20px;
+	margin-top: 50px;
+	padding-top: 30px;
+	font-size: 90px;
+	font-family: 'Great Vibes', cursive;
+	color: white;
+	border-right: 2px solid #3DB1AF;
+	border-left: 2px solid #3DB1AF;
+	text-align: center;
+}
+
+.fa {
+	margin-left: 20%;
+	color: #3DB1AF;
+	font-size: 25pt;
+}
+div.number {
+	display: block;
+}
+.fa-cutlery{
+	padding-left: 40px;
+}
+
+
+
+img.first-image {
+	padding-top: 20px;
+	width: 100%;
+	height: auto;
+}
+
+p {
+	line-height: 1.25;
+	font-weight: 500;
+	font-size: 14pt;
+	padding-left: 30px;
+	padding-right: 20px;
+}
+
+img.vert {
+	width: 100%;
+	height: auto;
+	
+}
+
+div#ingredients {
+	background-color: #F4E69F;
+	margin-top: 0px;
+
+	padding-bottom: 40px;
+	}
+
+div#directions {
+	background-color: #F4E69F;
+	margin-top: 0px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-bottom: 40px;
+	}
+
+div#notes {
+	margin-top: 0px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-bottom: 40px;
+
+}
+
+h2 {
+	height: 110px;
+	width: auto;
+	margin: 0px;
+	padding-top: 35px;
+	padding-bottom: 0px;
+	font-size: 70px;
+	font-family: 'Great Vibes', cursive;
+	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: pink;
+	letter-spacing: 1pt;
+	text-align: center
+}
+h3 {
+	padding-left: 30px;
+	padding-right: 20px;
+	color: #3DB1AF;
+	font-size: 2rem;
+}
+ ul {
+ 	padding-left: 30px;
+	padding-right: 20px;
+	list-style: none;
+ }
+li {
+	padding-bottom: ;
+}
+
+section {
+	margin: 0px;
+	padding: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom:20px;
+}
+
+.odd {
+	border: 3pt solid white;
+	font-weight: 600;
+	color: black;
+}
+
+.even {
+	border: 3pt solid pink;
+	font-weight: 500;
+	color: black;
+}
+
+div#notes {
+	font-size: 10pt
+}
+
+footer {
+	text-align: center;
+	font-size: 15px;
+	padding-bottom: 20px;
+	color: white;
+	font-weight: 600;
+}
