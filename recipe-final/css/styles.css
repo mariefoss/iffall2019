@@ -1,4 +1,4 @@
-body {
+body{
 	margin: 3rem auto;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -8,6 +8,7 @@ body {
 	line-height: 1.25;
 	font-weight: 500;
 	font-size: 15pt;
+
 }
 
 div {
@@ -57,12 +58,13 @@ div.icons {
 	font-weight: 600;
 	color: white;
 }
-
-.fa-cutlery {
+.fa-cutlery{
 	text-align: center;
 	margin-left: 47%;
 	margin-right: auto;
 }
+
+
 
 img.first-image {
 	padding-top: 20px;
@@ -91,13 +93,13 @@ div#ingredients {
 	background-color: #F4E69F;
 	margin-top: 0px;
 	padding-bottom: 20px;
-}
+	}
 
 div#directions {
 	background-color: #F4E69F;
 	margin-top: 0px;
 	padding-bottom: 40px;
-}
+	}
 
 div#notes {
 	margin-top: 0px;
@@ -136,8 +138,8 @@ h3 {
  	padding-left: 20px;
 	padding-right: 20px;
 	list-style: none;
- }
 
+ }
 ul#notes {
 	padding-left: 38px;
 	padding-right: 38px;
