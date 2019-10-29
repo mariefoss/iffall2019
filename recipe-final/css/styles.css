@@ -1,4 +1,4 @@
-body{
+body {
 	margin: 3rem auto;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -8,7 +8,6 @@ body{
 	line-height: 1.25;
 	font-weight: 500;
 	font-size: 15pt;
-
 }
 
 div {
@@ -44,23 +43,33 @@ h1 {
 }
 
 .fa {
-	margin-left: 20%;
+	text-align: center;
 	color: #3DB1AF;
 	font-size: 25pt;
+	margin-left: 47%;
+	margin-right: auto;
 }
-div.number {
+div.icons {
 	display: block;
-}
-.fa-cutlery{
-	padding-left: 40px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: 600;
+	color: white;
 }
 
-
+.fa-cutlery {
+	text-align: center;
+	margin-left: 47%;
+	margin-right: auto;
+}
 
 img.first-image {
 	padding-top: 20px;
 	width: 100%;
 	height: auto;
+	margin-top: 20px;
+	margin-bottom: 15px
 }
 
 p {
@@ -74,28 +83,24 @@ p {
 img.vert {
 	width: 100%;
 	height: auto;
+	padding-top: 20px;
 	
 }
 
 div#ingredients {
 	background-color: #F4E69F;
 	margin-top: 0px;
-
-	padding-bottom: 40px;
-	}
+	padding-bottom: 20px;
+}
 
 div#directions {
 	background-color: #F4E69F;
 	margin-top: 0px;
-	padding-left: 18px;
-	padding-right: 18px;
 	padding-bottom: 40px;
-	}
+}
 
 div#notes {
 	margin-top: 0px;
-	padding-left: 18px;
-	padding-right: 18px;
 	padding-bottom: 40px;
 
 }
@@ -106,42 +111,54 @@ h2 {
 	margin: 0px;
 	padding-top: 35px;
 	padding-bottom: 0px;
+	padding-left: 50px;
+	padding-right: 50px;
 	font-size: 70px;
 	font-family: 'Great Vibes', cursive;
 	color: white;
-	padding-left: 50px;
-	padding-right: 50px;
 	background-color: pink;
 	letter-spacing: 1pt;
-	text-align: center
+	text-align: center;
 }
+
+h2#dir {
+	margin-bottom: 32px;
+}
+
 h3 {
 	padding-left: 30px;
 	padding-right: 20px;
 	color: #3DB1AF;
 	font-size: 2rem;
 }
+
  ul {
- 	padding-left: 30px;
+ 	padding-left: 20px;
 	padding-right: 20px;
 	list-style: none;
  }
-li {
-	padding-bottom: ;
+
+ul#notes {
+	padding-left: 38px;
+	padding-right: 38px;
+}
+
+strong {
+	color: #3DB1AF;
 }
 
 section {
 	margin: 0px;
-	padding: 15px;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding: 20px;
+
 	margin-bottom:20px;
 }
 
 .odd {
 	border: 3pt solid white;
-	font-weight: 600;
+	font-weight: 500;
 	color: black;
+
 }
 
 .even {
@@ -150,14 +167,30 @@ section {
 	color: black;
 }
 
+.number {
+	background-color: #3DB1AF;
+	margin-bottom: 20px;
+	text-align: center;
+	color: white;
+	width: 40px;
+	height: 33px;
+	padding-top: 7px;
+	border-radius: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 600
+}
+
 div#notes {
-	font-size: 10pt
+	font-size: 10pt;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 footer {
 	text-align: center;
 	font-size: 15px;
-	padding-bottom: 20px;
-	color: white;
+	padding-bottom: 30px;
+	color: #3DB1AF;;
 	font-weight: 600;
 }
