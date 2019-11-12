@@ -11,14 +11,14 @@ body#card1{
 }
 
 body#card2{
-	background-image: url(../images/2.jpg);
+	background-image: url(../images/2.JPG);
 	background-size: cover;
 	background-position: 68%;
 	margin: 0;
 }
 
 body#card3{
-	background-image: url(../images/3.jpg);
+	background-image: url(../images/3.JPG);
 	background-size: cover;
 	background-position: 38%;
 	margin: 0;
