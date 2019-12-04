@@ -9,8 +9,10 @@ header {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
-	position: sticky;
+	top: 0;
+	position: fixed;
 	text-align: center;
+	z-index: 10;
 	/*display: inline-block;*/
 }
 
@@ -38,16 +40,16 @@ header {
  }
 
  a.header-button{
- 		padding-bottom: 16px;
+ 		padding-bottom: 11.5px;
  		padding-top: 5px;
  	}  
 
  a.header-button:hover {
- 	background-color: #353535
+ 	background-color: #353535;
  }
 
  a.header-button:visited {
- 	background-color: #353535
+ 	background-color: #353535;
  }
 
  #iconic-designs {
@@ -57,23 +59,29 @@ header {
  	height: auto;
  }
 
- #collaborations {
- 	left: 21%;
- 	width: 170px;
- 	height: auto;
- }
-
- #media {
- 	left: 42.5%;
+#media {
+ 	left: 26%;
  	text-align: center;
  	width: 100px;
  	height: auto;
  }
 
- #museo-locations {
- 	right: 21%;
+ #collaborations {
+ 	left: 54%;
  	width: 170px;
  	height: auto;
+ }
+
+ img#header-small-logo {
+ 	z-index: 10;
+ 	height: 20px;
+ 	width: auto;
+ 	margin-top: 7.5px;
+ 	margin-bottom: 7.5px;
+ 	/*display: inline-block;*/
+ 	position: relative;
+ 	top: 40px;
+ 	right: 8.7%;
  }
 
  #sources {
@@ -82,23 +90,24 @@ header {
  	height: auto;
  }
 
-div{
+div.image{
 	background-color: black;
 	position: relative;
 	height: 480px;
+	margin-top: 105px;
 }
 h1 {
 	margin: 0px;
 	text-align: center;
 	width: 100%;
-	z-index: 10;
+	z-index: 9;
 	text-transform: uppercase;
 	color: white;
 	font-family: futura-pt, sans-serif;
 	font-weight: 400;
 	font-size: 80pt;
 	display: inline-block;
-	bottom: 180px;
+	bottom: 235px;
 	position: absolute;
 }
 
@@ -134,6 +143,38 @@ body#iconic-designs-page div.image:before {
     background-size: cover;
 }
 
+body#collaborations-page div.image:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 480px;
+    z-index: 1;
+    opacity: 0.59;
+    background-image: url("../images/big-collab.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+ }
+
+ body#media-page div.image:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 480px;
+    z-index: 1;
+    opacity: 0.59;
+    background-image: url("../images/insta.jpeg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+ }
+
 div.gray-under-title {
 	background-color: #E0E0E0;
 	padding-left: 15%;
@@ -142,10 +183,12 @@ div.gray-under-title {
 	padding-bottom: 4%;
 	margin: 0px;
 	height: 27%;
-
 }
 
-
+div.quote {
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
 
 p.main-description {
 	font-family: futura-pt, sans-serif;
@@ -156,32 +199,198 @@ p.main-description {
 	line-height: 1.3
 }
 
-div.section {
-	height: 200px;
+body#media-page p.quote {
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
 }
-div.section p{
-	font-family: "Times New Roman", Times, serif;
+
+body#media-page div.quote {
+	padding-left: 12%;
+	padding-right: 12%;
+
+}
+
+p.quote {
+	padding-top: 4%
+
+}
+
+p.gray-att {
+	font-family: futura-pt, sans-serif;
+	text-align: center;
+	font-size: 23pt;
+	font-weight: 400;
+	padding-top:10px;
+
+}
+
+div.body-section {
+	background-color: white
+	
+}
+
+h2 {
+	margin: 0px;
+	text-align: center;
+	width: 100%;
+	text-transform: uppercase;
+	font-family: futura-pt, sans-serif;
+	font-weight: 300;
+	font-size: 60pt;
+	display: inline-block;
+	bottom: 180px;
+	padding-top: 20px
+}
+
+div.body {
+	height: 380px;
+	display: inline-block;
+	padding-left: 8%;
+	padding-right: 8%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+div.text {
+	font-family: 'Arapey', serif;
 	font-size: 12pt;
+	width: 43%;
+	margin: 0px;
+	text-align: justify;
+	display: inline-block;
+	line-height: 1.25
 }
 
+h3 {
+	margin: 0px;
+	text-align: left;
+	width: 100%;
+	font-family: 'Arapey', serif;
+	font-size: 23pt;
+	bottom: 180px;
+	display: inline-block;
+	padding-bottom: 20px;
+}
 
-div.section.first {
+img.body-section {
+	margin: 0px;
+	padding-top: 10px;
+	padding-left: 60px;
+	width: 500px;
+	height: auto;
+	display: inline;
+}
+
+.body.second img.body-section {
+	margin: 0px;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: 60px;
+	width: 500px;
+	height: auto;
+	display: inline;
+}
+
+div.body.first {
 	background-color: white;
 	color: black;
+
 }
 
-div.second {
+div.body.second {
 	background-color: black;
+	width: 100%;
 	color: #E6E6E6;
+	margin: 0;
+	display: inline-;
+}
+
+body#iconic-designs-page .second div.text p{
+	display: inline-block;
+	width: 300px;	
+	height: auto;
+	bottom: 300px;
+	margin-bottom: 20px;
+}
+
+body#iconic-designs-page .second div.text {
+	height: 300px;
+	position: relative;
+	bottom: 40%;
+	
+}
+
+body#iconic-designs-page .pics div.text {
+	height: 300px;
+	position: relative;
+	bottom: 365%;
+}
+
+body#collaborations-page .second div.text p{
+	display: inline-block;
+	width: 365px;	
+	height: auto;
+	bottom: 270px;
+	margin-bottom: 20px;
+}
+
+body#collaborations-page .second div.text {
+	height: 300px;
+	position: relative;
+	bottom: 38%;
+	
+}
+
+body#collaborations-page .pics div.text {
+	height: 300px;
+	position: relative;
+	bottom: 244%;
+}
+
+body#media-page .second div.text p{
+	display: inline-block;
+	width: 350px;	
+	height: auto;
+	bottom: 300px;
+	margin-bottom: 20px;
+}
+
+body#media-page .second div.text {
+	height: 300px;
+	position: relative;
+	bottom: 38%;
+	
+}
+
+body#media-page .pics div.text {
+	height: 300px;
+	position: relative;
+	bottom: 244%;
+}
+
+/*body#media-page div#butactually{
+	margin-bottom: 0px;
+}*/
+
+body#media-page div.pics {
+	margin-top: 20px;
+}
 }
 
 
+body#collaborations-page div.butactually {
+	margin-bottom: 20px;
+}
 
  footer {
  	width: cover;
  	height: 35px;
+ 	margin-top:20px;
  	background-color: black;
  	text-align: center;
+ 	margin-bottom: 0px;
  }
 
  img#footer-logo {
@@ -189,4 +398,24 @@ div.second {
  	margin-top: 7.5px;
  	margin-bottom: 7.5px;
 
+ }
+
+a.footer-button {
+	height: 1px;
+	margin: 0;
+	bottom: 10px;
+
+}
+
+
+div.gallery {
+	width: 50%;
+	padding-top: 15px;
+	margin-right: 50px;
+	display: inline-block;
+}
+
+ #imageGallery li img {
+ 	width: 100%;
+ 	margin: 0px;
  }
